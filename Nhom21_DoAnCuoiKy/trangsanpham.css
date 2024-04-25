@@ -1,0 +1,403 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+main
+{
+    margin: 0;
+    background-color: #F4F3EE;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background:url('../Nhom21_DoAnCuoiKy/image/nen.jpg');
+    background-size: cover;
+}
+/*HEADER*/
+header
+{
+    background-color: white;
+}
+.containerheader
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+#containerheader:hover
+{
+    background-color:blue;
+}
+.khungheader
+{
+    padding:0px;
+    border:none;
+    margin:10px;
+}
+.khung-1
+{
+    width:163px;
+}
+.center-align
+{
+    margin-left:-7px;
+    width:122px;
+    margin-top: -17px;
+}
+.brand
+{
+    margin:-79px;
+    margin-left: 92px;
+    font-size:27px;
+}
+.khung-2
+{
+    width:758px;
+    margin-top: 61px;
+    margin-left: 85px;
+}
+.danhmuc
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:10px;
+    text-align: center;
+    padding: 12px;
+    margin-top: -26px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.noidung
+{
+    display: inline-block;
+    margin-right:26px;
+}
+.noidung:hover
+{
+    color:rgb(185, 145, 11);
+}
+.text2
+{
+    margin-top:-20px;
+}
+.sptieude:hover
+{
+    color:rgb(185, 145, 11);
+}
+.danhmucsp
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position:relative;
+    z-index: 999;
+    color:black;
+}
+.andanhmucsp
+{
+    display: none;
+    white-space: pre-line;
+    position: absolute;
+    top: 58px;
+    left: -22px;
+    z-index: 999;
+    background-color: white;
+    width: 173px;
+    cursor: pointer;
+}
+#KCN:hover
+{
+    color:rgb(146, 114, 10)
+}
+#TT:hover
+{
+    color:rgb(146, 114, 10)
+}
+#SRM:hover
+{
+    color:rgb(146, 114, 10) 
+}
+#NCB:hover
+{
+    color:rgb(146, 114, 10)
+}  
+#MN:hover
+{
+    color:rgb(146, 114, 10)
+}
+#KD:hover
+{
+    color:rgb(146, 114, 10)
+}
+#NDT:hover
+{
+    color:rgb(146, 114, 10)
+}   
+#DG:hover
+{
+    color:rgb(146, 114, 10)
+}
+#CSTK:hover
+{
+    color:rgb(146, 114, 10)
+}
+
+.danhmucsp:hover .andanhmucsp 
+{
+    display: block;
+}
+.khung-3
+{
+    width:120px;
+    margin-top:1px;
+    margin-left:1px;
+}
+.input-wrapper
+{
+    position:relative;
+    display: inline-block;
+    width:150px;
+}
+.input-wrapper input
+{
+    margin-top: 38px;
+    width: 150px;
+    height: 40px;
+    border-radius:13px;
+    overflow: hidden;
+}
+.icon
+{
+    margin-top:12px;
+    margin-left:-235px;
+    font-size:20px;
+    color:#999;
+}
+.input-wrapper .icon
+{
+    position:absolute;
+    top:56%;
+    right:3px;
+    transform:translateY(-50%);
+}
+.khung-4
+{
+    margin-top: 42px;
+    margin-left: 31px;
+    font-size: 33px;
+}
+/*GIỎ HÀNG*/
+.cart-icon {
+    top: 20px;
+    right: 30px;
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -9px;
+    font-size: 32px;
+    color: black;
+  }
+
+  .cart-content {
+    position: fixed;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 459px;
+    overflow-y: auto;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: none;
+    height: 450px;
+  }
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    white-space:pre-line;
+  }
+
+  .cart-item-image {
+    width: 23%;
+    margin-right: 10px;
+  }
+
+  .cart-item-name {
+    font-size: 20px;
+  }
+
+  .cart-item-price 
+  {
+    font-weight: bold;
+    margin-top: 137px;
+    font-size: 15px;
+    width: 145px;
+  }
+
+  .cart-item-quantity {
+     font-size: 14px;
+     width: 51px;
+  }
+
+  .cart-total {
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .checkout {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ccc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  .cart-item-count
+  {
+    color: red;
+    margin-top: -25px;
+    font-size: 22px;
+    margin-right: 0px;
+  }
+
+  .product-name
+  {
+    margin-bottom:5px
+  }
+
+/*Nội DUNG*/
+.san-pham-ban-chay {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    }
+    a 
+    {
+        text-decoration: none;
+        color:black
+    }
+    .san-pham {
+        cursor: pointer;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    }
+    .hinh-anh {
+    margin-left: 60px;
+    width:300px;
+    height:auto;
+    transition: transform 0.5s ease;
+    
+    }
+    
+    .mo-ta {
+    margin-bottom: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr ;
+    
+    }
+    .mo-ta button {
+    float: right;
+    }
+    #gio-hang {
+    font-size: 36px;
+    cursor: pointer;
+    border:none;
+    }
+    .carousel-btn {
+            position: absolute;
+            top: 50%;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border: none;
+            z-index: 1000;
+        }
+    
+        .carousel-btn-left {
+            left: 10px;
+        }
+    
+        .carousel-btn-right {
+            right: 10px;
+        }
+        li
+        {    background: #f3eaea;
+        }
+        li div button
+        {
+            background:none;
+            color: green;
+        }
+/*FOOTER*/
+footer
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#ddd;
+}
+.column-footer
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
+    margin-left: 68px;
+    font-size: 18px;
+}
+.listHĐ
+{
+    white-space: pre-line;
+    line-height: 2.3;
+    font-size: 19px;
+    margin-top: -35px;
+}
+.a {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.a:hover {
+  background-color: red;
+}
+a
+{
+    line-height: 1;
+    color: black;
+}
+.copy
+{
+  background-color: rgb(117, 90, 90);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: -18px;
+}
+button
+{
+    border:none;
+    background:white;
+    font-size: 19px;
+}

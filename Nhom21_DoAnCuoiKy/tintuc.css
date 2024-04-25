@@ -1,0 +1,608 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    margin:0;
+    height:auto;
+    background-color: #F4F3EE;
+}
+/*HEADER*/
+header
+{background-color: white;}
+.containerheader
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+#containerheader:hover
+{
+    background-color:blue;
+}
+.khungheader
+{
+    padding:0px;
+    border:none;
+    margin:10px;
+}
+.khung-1
+{
+    width:163px;
+}
+.center-align
+{
+    margin-left:-7px;
+    width:122px;
+    margin-top: -5px;
+}
+.brand
+{
+    margin: -79px;
+    margin-left: 110px;
+    font-size: 27px;
+    margin-top: -55%;
+}
+.khung-2
+{
+    width:758px;
+    margin-top: 61px;
+    margin-left: 82px;
+}
+.danhmuc
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:10px;
+    text-align: center;
+    padding: 12px;
+    margin-top: -26px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.noidung
+{
+    display: inline-block;
+    margin-right:26px;
+}
+.noidung:hover
+{
+    color:rgb(185, 145, 11);
+}
+.text2
+{
+    margin-top:-20px;
+}
+.sptieude:hover
+{
+    color:rgb(185, 145, 11);
+}
+.danhmucsp
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position:relative;
+    z-index: 999;
+    color:black;
+}
+.andanhmucsp
+{
+    display: none;
+    white-space: pre-line;
+    position: absolute;
+    top: 56px;
+    left: -25px;
+    z-index: 999;
+    background-color: white;
+    width: 177px;
+    cursor: pointer;
+}
+.doimau:hover
+{
+    color:rgb(146, 114, 10)
+}
+.danhmucsp:hover .andanhmucsp 
+{
+    display: block;
+}
+.khung-3
+{
+    width:120px;
+    margin-top:1px;
+}
+.input-wrapper
+{
+    position:relative;
+    display: inline-block;
+    width:150px;
+}
+.input-wrapper input
+{
+    margin-top: 38px;
+    width: 150px;
+    height: 40px;
+    border-radius:13px;
+    overflow: hidden;
+}
+.icon
+{
+    margin-top:12px;
+    margin-left:-235px;
+    font-size:20px;
+    color:#999;
+}
+.input-wrapper .icon
+{
+    position:absolute;
+    top:56%;
+    right:3px;
+    transform:translateY(-50%);
+}
+.khung-4
+{
+    margin-top: 42px;
+    margin-left: 31px;
+    font-size: 33px;
+}
+/*NOI DUNG*/ 
+main{
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  background:url('../Nhom21_DoAnCuoiKy/image/nen.jpg');
+  background-size: cover;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: none;
+  }
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: none;
+  } 
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: none;
+  } 
+  .hinh-anh {
+    margin-left: 16%;
+    width:274px;
+  }
+  .hinh-anh:hover{
+  transform: scale(1.2);
+  }
+  .noi-dung 
+  {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    transform: translateY(20px);
+  }
+  .tieu-de {
+    margin-right:220px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .mo-ta {
+    font-size:18px;
+    text-align: justify;
+  }
+  .btn-doc-them {
+    float:right;
+      margin-left: auto;
+      padding: 7px 12px;
+      border: none;
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+      font-weight:bold;
+      text-decoration: underline;
+  }
+  .btn-doc-them:hover {
+      background-color: #ccc;
+  }
+  .input-icon input 
+  {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+  }
+  
+  .input-container::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    color:black;
+  }
+  .input-icon {
+    position: relative;
+  }
+  .input-icon i {
+    position: absolute;
+    left: 231px; 
+    top: 8px; 
+    font-size: 20px;
+  }
+  hr
+  {
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  h3
+  {text-align: center;}
+/*FOOTER*/
+footer
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#ddd;
+}
+.column-footer
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
+    margin-left: 68px;
+    font-size: 18px;
+}
+.listHĐ
+{
+    white-space: pre-line;
+    line-height: 2.3;
+    font-size: 19px;
+    margin-top: -35px;
+}
+.a {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.a:hover {
+  background-color: red;
+}
+a
+{
+    line-height: 1;
+    color: black;
+    text-decoration: none;
+}
+.copy
+{
+  background-color: rgb(117, 90, 90);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: -18px;
+}
+/*noidung*/
+#bai1{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+ 
+}
+.nd1{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+#bai1 img{
+  transform: translateX(50%)
+}
+.dongbai1 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#bai2{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+}
+.nd2{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+#bai2 img{
+  transform:translateX(50%)
+}
+.dongbai2 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#bai3{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+}
+.dongbai3 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#bai3 img
+{
+  transform: translateX(50%);
+}
+.nd3{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.nd3 p
+{white-space: pre-line;}
+#bai4{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+}
+.dongbai4 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nd4{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+#bai5{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+}
+.dongbai5 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nd5{  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;}
+.nd5 p {
+  white-space: pre-line;
+}
+#bai6{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+}
+.dongbai6 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nd6{  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;}
+.nd6 div
+{
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(216, 149, 149);
+  padding-top: 30px;
+}
+.nd6 p
+{
+  white-space: pre-line;
+}
+.nd6 img
+{
+  transform: translateX(50%);
+}
+#bai7{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+}
+.dongbai7 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nd7{  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;}
+  .nd7 p
+  {
+    white-space: pre-line;
+  }
+  .nd7 img
+  {
+    transform: translateX(50%);
+  }
+#bai8{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+}
+.dongbai8 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nd8{  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;}
+.nd8 div
+{  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(216, 149, 149);
+  padding-top: 30px;
+}
+.nd8 p
+{
+  white-space: pre-line;
+}
+.nd8 img
+{
+  transform: translateX(50%);
+}
+#bai9{
+  position:fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: auto;
+  overflow-y: auto;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  height: 512px;
+}
+.dongbai9 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nd9{  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;}
+  .nd9 div
+{  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(216, 149, 149);
+  padding-top: 30px;
+}
+.nd9 p
+{
+  white-space: pre-line;
+}
+.nd9 img
+{
+  transform: translateX(50%);
+}

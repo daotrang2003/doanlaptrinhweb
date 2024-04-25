@@ -1,0 +1,291 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+
+}
+main
+{
+    margin:0;
+    height:1060px;
+    background:url('../Nhom21_DoAnCuoiKy/image/nen.jpg');
+    background-size: cover;
+}
+/*HEADER*/
+
+.containerheader
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+#containerheader:hover
+{
+    background-color:blue;
+}
+.khungheader
+{
+    padding:0px;
+    border:none;
+    margin:10px;
+}
+.khung-1
+{
+    width:163px;
+}
+.center-align
+{
+    margin-left:-7px;
+    width:122px;
+    margin-top: -17px;
+}
+.brand
+{
+    margin:-79px;
+    margin-left: 92px;
+    font-size:27px;
+}
+.khung-2
+{
+    width:758px;
+    margin-top: 61px;
+    margin-left: 82px;
+}
+.danhmuc
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:10px;
+    text-align: center;
+    padding: 12px;
+    margin-top: -26px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.noidung
+{
+    display: inline-block;
+    margin-right:26px;
+}
+.noidung:hover
+{
+    color:rgb(185, 145, 11);
+}
+.text2
+{
+    margin-top:-20px;
+}
+.sptieude:hover
+{
+    color:rgb(185, 145, 11);
+}
+.danhmucsp
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position:relative;
+    z-index: 999;
+    color:black;
+}
+.andanhmucsp
+{
+    display: none;
+    white-space: pre-line;
+    position: absolute;
+    top: 58px;
+    left: -22px;
+    z-index: 999;
+    background-color: white;
+    width: 173px;
+    cursor: pointer;
+}
+.doimau:hover
+{
+    color:rgb(146, 114, 10)
+}
+.danhmucsp:hover .andanhmucsp 
+{
+    display: block;
+}
+.khung-3
+{
+    width:120px;
+    margin-top:1px;
+}
+.input-wrapper
+{
+    position:relative;
+    display: inline-block;
+    width:150px;
+}
+.input-wrapper input
+{
+    margin-top: 38px;
+    width: 150px;
+    height: 40px;
+    border-radius:13px;
+    overflow: hidden;
+}
+.icon
+{
+    margin-top:12px;
+    margin-left:-235px;
+    font-size:20px;
+    color:#999;
+}
+.input-wrapper .icon
+{
+    position:absolute;
+    top:56%;
+    right:3px;
+    transform:translateY(-50%);
+}
+.khung-4
+{
+    margin-top: 42px;
+    margin-left: 31px;
+    font-size: 33px;
+}
+/*NỘI DUNG*/
+.container 
+{
+    flex: 1 1 auto;
+    padding: 0px;
+    border: none;
+    margin: 10px;
+}
+.mid 
+{
+    width: 64%; /* or any specific width */
+    margin: 0 auto;
+}
+
+#map-container{
+    width: 20%;
+    height: 10%;
+}
+.mid_left{
+    float: left;
+    text-align: center;
+    margin-left: -197px;
+}
+.mid_right{
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+#showrooms-list {
+    margin-top: 20px;
+}
+.showroom {
+    border-left: 5px solid #ACBABF;
+    padding-left: 10px;
+    margin-top: 100px;
+    font-size: 20px;
+    width: 646px;
+}
+
+#showroom-1{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+#showroom-2{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    flex: 1 1 auto;
+    padding: 0px;
+    border: none;
+    margin: 10px;
+}
+.contact{
+    float: left;
+    width: 26%;
+    text-align: center;
+    margin: 0;
+    margin-top: 320px;
+    margin-left: 205px;
+}
+
+.input
+{
+    float: right;
+    text-align: center;
+    width: 300px;
+    margin-top: 63px;
+    margin-right: 249px;
+}
+.buttonlienhe
+{
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.inputgopy , textarea 
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+h1
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/*FOOTER*/
+footer
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#ddd;
+}
+.column-footer
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
+    margin-left: 68px;
+    font-size: 18px;
+}
+.listHĐ
+{
+    white-space: pre-line;
+    line-height: 2.3;
+    font-size: 19px;
+    margin-top: -35px;
+}
+.a {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.a:hover {
+  background-color: red;
+}
+a
+{
+    line-height: 1;
+    color: black;
+    text-decoration: none;
+}
+.copy
+{
+  background-color: rgb(117, 90, 90);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: -18px;
+}

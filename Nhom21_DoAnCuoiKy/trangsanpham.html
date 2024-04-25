@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trangsanpham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>TRANG SẢN PHẨM</title>
+</head>
+<header>
+    <div class="containerheader">
+        <div class="khungheader khung-1">
+            <img src="../Nhom21_DoAnCuoiKy/image/logo.png" wid="90" class="center-align">
+            <div class="brand">
+                3T STORE
+            </div>
+        </div>
+        <div class="khunghrader khung-2">
+            <div class="danhmuc">
+              <a href="../Nhom21_DoAnCuoiKy/trangchu.html" style="color:black;">
+                <span class="noidung"> TRANG CHỦ</span></a>
+                <a href="../Nhom21_DoAnCuoiKy/gioithieu.html " style="color:black;">
+                <span class="noidung">GIỚI THIỆU</span></a>
+                <div class="text2">
+                    <div class="danhmucsp">
+                        <span class="sptieude">SẢN PHẨM</span>
+                        <div class="andanhmucsp">
+                            <p id="KCN" > Kem chống nắng</p>
+                            <p id ="TT">Tẩy trang</p>    
+                            <p id ="SRM" >Sửa rửa mặt</p>    
+                            <p id ="NCB">Nước cân bằng</p>    
+                            <p id="MN" >Mặt nạ & Tẩy da chết</p>    
+                            <p id="KD" >Kem dưỡng</p>    
+                            <p id="NDT">Nước dưỡng tóc</p>    
+                            <p id="DG" >Dầu gội</p>    
+                            <p id="CSTK">Chăm sóc tóc khác</p>    
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="../Nhom21_DoAnCuoiKy/tintuc.html">
+                    <span class="noidung" style="margin-right: 18px;"> TIN TỨC</span></a>
+                <a href="../Nhom21_DoAnCuoiKy/lienhe.html" style="color:black;">
+                <span class="noidung" style="margin-right: 52px;">LIÊN HỆ</span> </a>
+            </div>
+        </div>
+        <div class="khungheader khung-3">
+            <div class="input-wrapper">
+                <input type="text" id="timkiem" placeholder="Tìm kiếm ...">
+                <span class="icon"> <i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+        </div>
+        <div class="khungheader khung-4">
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping" ></i> <span  class="cart-item-count"></span>
+                <a href="../Nhom21_DoAnCuoiKy/dangnhap.html">
+                    <i class="fa-solid fa-user" style="margin-left:18px;"></i>
+                </a>
+            </div>
+            <div class="cart-content">
+                <div class="close-btn">&times;</div> 
+                  <div class="cart-items">
+                    <div class="cart-item-name"></div><br>
+                    <div class="cart-item-price"></div>  
+                  </div>
+                  <div class="cart-total">Tổng tiền: 0 ₫</div>
+                <button class="checkout" >Mua Hàng</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Scroll to the "kem chống nắng" section when clicking on the link
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('KCN').addEventListener('click', function() {
+                document.getElementById('kemchongnang').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+         // Scroll to the "tẩy trang" section when clicking on the link
+         document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('TT').addEventListener('click', function() {
+                document.getElementById('taytrang').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+         // Scroll to the "sữa rửa mặt" section when clicking on the link
+         document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('SRM').addEventListener('click', function() {
+                document.getElementById('suaruamat').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+         // Scroll to the "Nước cân bằng" section when clicking on the link
+         document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('NCB').addEventListener('click', function() {
+                document.getElementById('nuoccanbang').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+         // Scroll to the "mặt nạ" section when clicking on the link
+         document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('MN').addEventListener('click', function() {
+                document.getElementById('matna').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+         // Scroll to the "kem dưỡng" section when clicking on the link
+         document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('KD').addEventListener('click', function() {
+                document.getElementById('kemduong').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+         // Scroll to the "Nước dưỡng tóc " section when clicking on the link
+         document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('NDT').addEventListener('click', function() {
+                document.getElementById('nuocduongtoc').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+         // Scroll to the "dầu gội" section when clicking on the link
+         document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('DG').addEventListener('click', function() {
+                document.getElementById('daugoi').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+         // Scroll to the "chăm sóc tóc khác" section when clicking on the link
+         document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('CSTK').addEventListener('click', function() {
+                document.getElementById('chamsoctockhac').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</header>
+<body>
+<main>
+    <div> 
+        <div class= "kemchongnang" ></div>
+          <h1> KEM CHỐNG NẮNG </h1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/SCN1.png" width="200" >
+                  <div class="mo-ta">
+                      <h3 > Sữa chống nắng Bí Đao 15ml </h3>
+                      <button id ="gio-hang" class="add-to-cart"  data-image="../Nhom21_DoAnCuoiKy/image/SCN1.png" data-name="Sữa chống nắng Bí Đao 15ml"  data-price="155000"> <i class="fa-solid fa-cart-shopping "> </i> </button>
+                      <p> CHỐNG NẮNG BẢO VỆ CHO DA DẦU </p>
+                      <p class="gia">155.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/SCN2.png"  width=auto >
+                  <div class="mo-ta">
+                     <h3 > Sữa chống nắng Bí Đao 50ml</h3>
+                     <button id ="gio-hang" class="add-to-cart"  data-image="../Nhom21_DoAnCuoiKy/image/SCN2.png" data-name="Sữa chống nắng Bí Đao 50ml"  data-price="395000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > CHỐNG NẮNG BẢO VỆ CHO DA DẦU </p>
+                      <p class="gia">395.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/KCN.jpeg" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Kem chống nắng Bí Đao 50ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/KCN.jpeg" data-name="Kem chống nắng Bí Đao 50ml" data-price="395000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > CHỐNG NẮNG BẢO VỆ DA KHÔ </p>
+                      <p class="gia">395.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      <br>
+      <div id="taytrang"> 
+      <h1> TẨY TRANG </H1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/nuoctaytrangbidao.jpeg" alt="nước tẩy trang" width="200" >
+                  <div class="mo-ta">
+                      <h3> Nước tẩy trang Bí Đao </h3>
+                      <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/nuoctaytrangbidao.jpeg" data-name="Nước tẩy trang Bí Đao" data-price="295000" > <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> LÀM SẠCH VÀ GIẢM DẦU </p>
+                      <p class="gia">295.000</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/TTBĐ.jpeg" alt="nước tẩy trang" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Nước tẩy trang Hoa Hồng </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/TTBĐ.jpeg" data-name="Nước tẩy trang Hoa Hồng" data-price="145000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > LÀM SẠCH NHẸ NHÀNG </p>
+                      <p class="gia">145.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/DTT.jpeg" alt="nước tẩy trang" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Dầu tẩy trang Hoa Hồng </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/DTT.jpeg" data-name="Dầu tẩy trang Hoa Hồng" data-price="340000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > GIẢM GÃY RỤNG VÀ LÀM MỀM TÓC</p>
+                      <p class="gia">340.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      
+      <div id="suaruamat"> 
+        <h1> SỮA RỬA MẶT </h1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/GELBĐ.jpeg" alt=" sữa rửa mặt " width="200" >
+                  <div class="mo-ta">
+                      <h3 > Gel rửa mặt Bí Đao </h3>
+                      <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/GELBĐ.jpeg" data-name="Gel rửa mặt Bí Đao" data-price="295000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> GIẢM DẦU MỤN </p>
+                      <p class="gia">295.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/NHY.jpeg" alt=" sữa rửa mặt" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Nước tẩy trang Hoa Hồng </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/NHY.jpeg" data-name="Nước tẩy trang Hoa Hồng" data-price="340000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > GIẢM GÃY RỤNG VÀ LÀM MỀM TÓC</p>
+                      <p class="gia">340.000</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/CF.jpeg" alt=" sữa rửa mặt" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Gel rửa mặt cà phê Đắk Lắk </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/CF.jpeg" data-name="Gel rửa mặt cà phê Đắk Lắk" data-price="295000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > CHO DA MỀM MẠI RẠNG RỠ </p>
+                      <p class="gia">295.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      
+      <div id="nuoccanbang"> 
+        <h1> NƯỚC CÂN BẰNG </h1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/NCB1.jpeg" width="200" >
+                  <div class="mo-ta">
+                      <h3 > Nước nghệ Hưng Yên </h3>
+                      <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/NCB1.jpeg" data-name="Nước nghệ Hưng Yên" data-price="295000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> SÁNG DA & CẤP ẨM </p>
+                      <p class="gia">295.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/NCB2.jpeg"  width=auto >
+                  <div class="mo-ta">
+                     <h3 > Nước cân bằng Bí Đao </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/NCB2.jpeg" data-name="Nước cân bằng Bí Đao" data-price="340000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > GIẢM DẦU MỤN </p>
+                      <p class="gia">340.000</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/CF.jpeg" width=auto >
+                  <div class="mo-ta">
+                     <h3 >  Nước cân bằng Bí Đao 140ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/CF.jpeg" data-name="Nước cân bằng Bí Đao 140ml" data-price="195000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > GIẢM DẦU MỤN </p>
+                      <p class="gia">195.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      
+      <div id="matna"> 
+        <h1> MẶT NẠ & TẨY DA CHẾT </h1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/MN1.jpeg" width="200" >
+                  <div class="mo-ta">
+                      <h3 > Nước nghệ Hưng Yên </h3>
+                      <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/MN1.jpeg" data-name="Nước nghệ Hưng Yên" data-price="295000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> SÁNG DA & CẤP ẨM </p>
+                      <p class="gia">295.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/MN2.jpeg"  width=auto >
+                  <div class="mo-ta">
+                     <h3 > Mặt nạ nghệ Hưng Yên 30ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/MN2.jpeg" data-name="Mặt nạ nghệ Hưng Yên 30ml " data-price="145000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > DA RẠNG RỠ MỊN MÀNG </p>
+                      <p class="gia">145.000</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/taytebaochet.jpg" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Tẩy tế bào chết cà phê Đắk Lắk 150ML </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/taytebaochet.jpg" data-name="Tẩy tế bào chết cà phê Đắk Lắk 150ML" data-price="165000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > CHO DA MỀM MỊN </p>
+                      <p class="gia">165.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      
+      <div id="kemduong"> 
+        <h1> KEM DƯỠNG </h1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/KDN.png" width="200" >
+                  <div class="mo-ta">
+                      <h3 > Thạch nghệ Hưng Yên </h3>
+                      <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/KDN.png" data-name="Thạch nghệ Hưng Yên " data-price="295000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> SÁNG DA & CẤP ẨM </p>
+                      <p class="gia">295.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/KDHH.jpeg"  width=auto >
+                  <div class="mo-ta">
+                     <h3 > Thạch dưỡng ẩm Hoa Hồng 30ml</h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/KDHH.jpeg" data-name="Thạch dưỡng ẩm Hoa Hồng 30ml" data-price="195000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > CẤP ẨM CHO DA KHÔ </p>
+                      <p class="gia">195.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/KDBĐ.jpeg" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Thạch dưỡng ẩm Bí Đao 30ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/KDBĐ.jpeg" data-name="Thạch dưỡng ẩm Bí Đao 30ml" data-price="195000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > CẤP ẨM GIẢM DẦU  </p>
+                      <p class="gia">195.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      
+      <div id="nuocduongtoc"> 
+        <h1> NƯỚC DƯỠNG TÓC  </h1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/NDT.jpeg" width="200" >
+                  <div class="mo-ta">
+                      <h3 > Nước dưỡng tóc tinh dầu bửoi 310ml </h3>
+                      <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/NDT.jpeg" data-name="Nước dưỡng tóc tinh dầu bưởi 310ml" data-price="325000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> GIẢM GÃY RỤNG & MỀM TÓC </p>
+                      <p class="gia">325.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/nuocduongtoc.jpeg"  width=auto >
+                  <div class="mo-ta">
+                     <h3 > Nước dưỡng tóc tinh dầu bưởi 140ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/nuocduongtoc.jpeg" data-name="Nước dưỡng tóc tinh dầu bưởi 140ml" data-price="165000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > GIẢM GÃY RỤNG & MỀM TÓC </p>
+                      <p class="gia">165.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/SACHI.png" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Nước dưỡng tóc Sa-chi 140ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/SACHI.png" data-name="Nước dưỡng tóc Sa-chi 140ml" data-price="145000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > CẤP ẨM PHỤC HỒI TÓC </p>
+                      <p class="gia">145.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      
+      <div id="daugoi"> 
+        <h1> DẦU GỘI  </h1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/DGRF.jpeg" width="200" >
+                  <div class="mo-ta">
+                      <h3 > Dầu gội bưởi refill túi 500ml </h3>
+                      <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/DGRF.jpeg" data-name="Dầu gội bưởi refill túi 500ml" data-price="335000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> GIẢM GÃY RỤNG & MỀM TÓC </p>
+                      <p class="gia">355.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/DG500.jpeg"  width=auto >
+                  <div class="mo-ta">
+                     <h3 > Dầu gội bưởi không sulfate 500ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/DG500.jpeg" data-name="Dầu gội bưởi không sulfate 500ml" data-price="375000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > GIẢM GÃY RỤNG & MỀM TÓC </p>
+                      <p class="gia">375.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/DG2.jpeg" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Dầu gội bưởi không sulfate 350ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/DG2.jpeg" data-name="Dầu gội bưởi không sulfate 350ml " data-price="245000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > GIẢM GÃY RỤNG & MỀM TÓC </p>
+                      <p class="gia">245.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      
+      <div id="chamsoctockhac"> 
+        <h1> CHĂM SÓC TÓC KHÁC </h1>
+          <ul class="san-pham-ban-chay">
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/DXB.jpeg" width="200" >
+                  <div class="mo-ta">
+                      <h3 > Dầu xả bưởi 310ml </h3>
+                      <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/DXB.jpeg" data-name="Dầu xả bưởi 310ml  " data-price="185000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> GIẢM GÃY RỤNG & MỀM TÓC </p>
+                      <p class="gia">185.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/KUB.jpeg"  width=auto >
+                  <div class="mo-ta">
+                     <h3 > Kem ủ tóc bưởi 200ml </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/KUB.jpeg" data-name="Kem ủ tóc bưởi 200ml  " data-price="215000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p> GIẢM GÃY RỤNG & MỀM TÓC </p>
+                      <p class="gia">215.000 đ</p>
+                  </div>
+              </li>
+              <li class="san-pham">
+                  <img class="hinh-anh" src="../Nhom21_DoAnCuoiKy/image/sachitoc.png" width=auto >
+                  <div class="mo-ta">
+                     <h3 > Tinh chất dưỡng tóc Sa-chi </h3>
+                     <button id ="gio-hang" class="add-to-cart" data-image="../Nhom21_DoAnCuoiKy/image/sachitoc.png" data-name="Tinh chất dưỡng tóc Sa-chi" data-price="165000"> <i class="fas fa-shopping-cart "> </i> </button>
+                      <p > CẤP ẨM & PHỤC HỒI </p>
+                      <p class="gia">165.000 đ</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+    <script src="../Nhom21_DoAnCuoiKy/trangsanpham.js"></script>
+</main>
+</body>
+<footer>
+    <div class="column-footer">
+        <div>
+            <h3 style="margin-top: 30px;">THÔNG TIN</h3><br>
+            <div>
+                <a> Hotline:  19009300 </a> <br>
+                    Hợp tác: <a target="_blank">3TStore2024@gmail.com</a>
+            </div>
+            <div class="map-container"style="margin-top: 22px; width: 103%;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62696.94957231656!2d106.53810724863283!3d10.844994999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a3107e6806f%3A0x35888f3be64f9389!2zQ2hpIE5ow6FuaCAxIC0gQ8O0bmcgVHkgVG5oaCBUaMawxqFuZyBN4bqhaSBHaeG6pXkgVG_DoG4gUXXhu5Fj!5e0!3m2!1svi!2s!4v1712922233161!5m2!1svi!2s" width="87%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+        </div>
+        <div style="margin-left: 74px;">
+            <h3 style="margin-top: 30px;">HỎI ĐÁP</h3>
+            <div class="listHĐ">
+                <a>Hướng dẫn mua hàng
+                Chính sách bán hàng
+                Điều khoản bảo mật
+                Liên hệ chúng tôi 
+                Về chúng tôi</a>
+            </div>
+        </div>
+        <div>
+            <h3 style="margin-top: 30px;">CÀI ĐẶT ỨNG DỤNG</h3>
+            <div class="thanhtoan"style="padding-top: 10px;">
+                <img src="https://i.imgur.com/4D3XvUZ.jpeg" style="width: 40%; margin-top: 19px; margin-bottom: -3px;border-radius: 20px;overflow: hidden;">
+                <img src="https://i.imgur.com/DOtfaVl.png"style=" width: 40%;height: 38px;margin-top: 19px; margin-bottom: -3px;border-radius: 20px;overflow: hidden;">
+            </div>
+            <div class="hinhthucTT" style="margin-top: 17px;">
+                <span style="font-size: 20px;">Chấp nhận thanh toán</span>
+                <div class="anhTT"style="margin-top: 21px;">
+                    <img src="https://i.imgur.com/AOyGaSr.jpeg"style="width: 18%;border-radius:13px;overflow: hidden;">
+                    <img src="https://i.imgur.com/OhyPXAb.png"style="width: 18%;border-radius:13px;overflow: hidden;">
+                    <img src="https://i.imgur.com/sOuetwi.jpeg"style="width: 18%;border-radius:13px;overflow: hidden;">
+                    <img src="https://i.imgur.com/hNvNRy2.png"style="width: 18%;border-radius:13px;overflow: hidden;">
+                </div>
+            </div>
+        </div>
+        <div style="margin-left: 61px;">
+            <h3 style="margin-top: 30px;">VỀ 3TSTORE</h3>
+            <div class="timeopen"style="width: 206px;font-size: 18px;margin-top: 18px;line-height: 1.8;padding-top: 4px;">
+                <span>Từ 9:00 - 21:30 tất cả các ngày trong tuần (bao gồm cả các ngày lễ, ngày Tết).</span>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9"style="margin-top: 9px;">
+            <ul class="nav list-unstyled menu-hoz-group" style="padding: 0px;font-size: 29px;">
+                <i class="fa-solid fa-cart-shopping" style="color: #215e2e;"></i>  
+                <i class="fa-brands fa-youtube"style="margin-left: 20px; color: red;"></i>
+                <i class="fa-brands fa-square-facebook"style="margin-left: 20px; color: #1d1d8d;"></i>
+                <i class="fa-brands fa-square-instagram"style="margin-left: 20px; color: rgb(224 101 101);"></i>
+            </ul>
+            <div class="flexfooterinfo" style="margin-top: 24px;">
+              <div>
+                 <a target="_blank" href="http://online.gov.vn/Home/WebDetails/69076"><img src="https://file.hstatic.net/1000006063/file/bct_copy_b45be4268f5044bb94285c84c7ca045e.png"></a>
+              </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+</html>
